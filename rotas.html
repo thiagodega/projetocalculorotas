@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar rotas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <form method="post" action="cadastrorotas.php">
+<p> 
+            <label for="origem">Origem</label><br>
+            <input id="origem" name="origem" type="text" placeholder="ex. Sao Paulo, Rio de Janeiro"/>
+          </p>
+          <p> 
+            <label for="destino">Destino</label><br>
+            <input id="destino" name="destino" type="text" placeholder="ex. Sao Paulo, Rio de Janeiro"/>
+          </p>
+          <p> 
+            <label for="distancia">Distancia em kilometros</label><br>
+            <input id="distancia" name="distancia" type="text" placeholder="ex. 1500,100,500"/>
+          </p>
+          <p> 
+            <input type="submit" value="Cadastrar" /> 
+          </p>
+          <br>
+          <ul>
+              <li><a class= "button" href="menu.php">voltar</a></li>
+              <li><a class= "button" href="logout.php">Sair</a></li>
+          </ul>

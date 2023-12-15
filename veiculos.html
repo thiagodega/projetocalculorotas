@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar Veículos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<form method="post" action="cadastroveiculo.php">
+         <p>
+        <label for="veiculo">Veículo</label><br>
+            <input id="veiculo" name="veiculo" type="text" placeholder="ex. carro,caminhão,ônibus,etc."/>
+            </p>
+            <p> 
+        <label for="tipocomb">tipo de combustível</label><br>
+            <input id="tipocomb" name="tipocomb" type="text" placeholder="ex. gasolina, diesel,álcool."/>
+        </p>            
+        <p> 
+        <label for="atuonomia">Autonomia em KM por litro</label><br>
+            <input id="autonomia" name="autonomia" type="text" placeholder="ex. 10, 50"/>
+        </p>
+        <p> 
+        <label for="combustivel">valor do combustivel</label><br>
+            <input id="combustivel" name="combustivel" type="text" placeholder="ex. 1,50, 2,50, 3,50"/>
+        </p>
+        <p> 
+            <input type="submit" value="Cadastrar" /> 
+        </p>
+
+<br>
+<ul>
+    <li><a class= "button" href="menu.php">voltar</a></li>
+    <li><a class= "button" href="logout.php">Sair</a></li>
+</ul>
